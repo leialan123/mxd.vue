@@ -2,7 +2,7 @@
  * @Author: leialan123 leialan123@sina.com
  * @Date: 2022-06-21 10:20:29
  * @LastEditors: leialan123 leialan123@sina.com
- * @LastEditTime: 2022-06-21 18:00:49
+ * @LastEditTime: 2022-06-22 14:27:07
  * @FilePath: \mxd.vue\mxdweb\src\App.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -41,6 +41,7 @@ export default {
 
   components: {
     Head,
+    Main,
     Footer
   }
 }
@@ -50,6 +51,15 @@ export default {
 * {
   padding: 0;
   margin: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none!important;
+    color: #2b2725;
 }
 
 #app {

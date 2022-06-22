@@ -1,7 +1,7 @@
 <template>
     <nav>
         <div class="topLeft">
-            <img class="topLogo" src="@/assets/imgs/logo.png" alt="" srcset="" />
+            <img class="topLogo" src="@/assets/imgs/logo2.png" alt="" srcset="" />
         </div>
 
         <div class="topMiddle">
@@ -98,7 +98,8 @@ export default {
 <style scoped>
     nav {
         padding-left: 50px;
-        position: fixed;
+        padding-right: 30px;
+        /* position: fixed;
         top: 0;
         left: 0;
         right: 0;
@@ -106,7 +107,17 @@ export default {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: rgba(0, 0, 0, .9)
+        background-color: rgba(0, 0, 0, .9) */
+
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(0,0,0,.9);
+        z-index: 1000;
     }
     .topLeft {
         

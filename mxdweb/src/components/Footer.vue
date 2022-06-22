@@ -1,3 +1,11 @@
+<!--
+ * @Author: leialan123 leialan123@sina.com
+ * @Date: 2022-06-21 17:41:33
+ * @LastEditors: leialan123 leialan123@sina.com
+ * @LastEditTime: 2022-06-22 14:12:54
+ * @FilePath: \mxd.vue\mxdweb\src\components\Footer.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <template>
     <footer class="footer">
         <div class="versionInfos">
@@ -9,7 +17,7 @@
             </ul>
         </div>
         <div class="serverElapsedTime">服务器已运行时间 247 天 5时 57分 32秒 </div>
-        <div class="copyright">🌈© 2022 MapleRecall</div>
+        <div class="copyright">🌈© 2022 MapleAlways083</div>
     </footer>
 </template>
 
